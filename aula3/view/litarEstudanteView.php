@@ -52,7 +52,13 @@
                 </div>
             </div>
 
-
+            <div class="row">
+            <br>
+            <br>
+            <a href="/aula3/?controller=Estudante&acao=salvar" class="btn btn-success w-20">Cadastrar Estudante</a>
+            <br>
+            <br>
+            </div>
             <div class="row">
             <table class="table">
                 

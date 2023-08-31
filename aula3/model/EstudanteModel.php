@@ -16,7 +16,6 @@ class EstudanteModel{
         //Salvar no BD
         $sql = ("INSERT INTO estudantes (nome, idade) VALUES ('$nome', '$idade')");
         $this->database->insert($sql);
-        echo "Usuário salvo com sucesso";
     }
 
     public function listarModel(): array {
